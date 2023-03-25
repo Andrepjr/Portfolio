@@ -1,0 +1,12 @@
+body{
+    background-color:black;
+    color:#d9d9d9;
+}
+
+.titulo-destaque{
+    color: chartreuse;
+}
+
+.paragrafo-destaque{
+    color: darkorange;
+}
