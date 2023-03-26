@@ -1,12 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
+    height: 100vh;
+    box-sizing: border-box;
     background-color:black;
     color:#d9d9d9;
 }
 
 .titulo-destaque{
-    color: chartreuse;
+    color: crimson;
 }
 
 .paragrafo-destaque{
     color: crimson;
+}
+
+.apresentacao{
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo{
+    width: 615px;
+
+}
+
+.apresentacao__conteudo__titulo{
+    font-size: 38px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.apresentacao__conteudo__texto{
+    font-size: 24px;
+    font-family: 'Roboto Mono', monospace;
 }
