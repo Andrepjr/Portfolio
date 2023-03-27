@@ -11,6 +11,7 @@ body{
     box-sizing: border-box;
     background-color:black;
     color:#d9d9d9;
+    overflow: hidden;
 }
 
 .titulo-destaque{
@@ -22,7 +23,7 @@ body{
 }
 
 .apresentacao{
-    margin: 10%;
+    margin: 10% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -30,6 +31,9 @@ body{
 
 .apresentacao__conteudo{
     width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 
 }
 
@@ -40,5 +44,24 @@ body{
 
 .apresentacao__conteudo__texto{
     font-size: 24px;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Mono', monospace ;
+}
+
+.apresentacao__links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao__links__link{
+    background-color: crimson;
+    text-align: center;
+    width: 260px;
+    border-radius: 17px;
+    font-size: 24px;
+    padding: 21px 0;
+    text-decoration: none;
+    color: #d9d9d9;
+    font-family:'Roboto Mono', monospace;
+    font-weight: bold;
+    
 }
