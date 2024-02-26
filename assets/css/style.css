@@ -9,7 +9,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background: linear-gradient(white, rgb(167, 167, 167));
+  background: linear-gradient(white, rgb(121, 121, 121));
 }
 
 html {
@@ -430,4 +430,5 @@ footer {
 
 footer p {
   text-align: center;
+  color: white;
 }
