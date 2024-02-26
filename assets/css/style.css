@@ -9,6 +9,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background: linear-gradient(white, rgb(167, 167, 167));
 }
 
 html {
